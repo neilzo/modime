@@ -7,6 +7,7 @@ bin
 .gitattributes
 .gitignore
 .prettierignore
+.keep
 
 # Editor configs
 .idea
