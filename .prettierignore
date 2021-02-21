@@ -1,0 +1,13 @@
+tmp
+node_modules
+bin
+
+# dot files
+.browserslistrc
+.gitattributes
+.gitignore
+.prettierignore
+
+# Editor configs
+.idea
+.editorconfig
