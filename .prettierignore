@@ -1,0 +1,27 @@
+tmp
+node_modules
+bin
+Gemfile.lock
+log
+yarn.lock
+*.enc
+*.key
+*.png
+*.jpg
+*.ico
+*.txt
+# TODO: can prettier format erb?
+*.erb
+
+# dot files
+.browserslistrc
+.gitattributes
+.gitignore
+.prettierignore
+.keep
+.ruby-version
+
+# Editor configs
+.idea
+.editorconfig
+modime.iml

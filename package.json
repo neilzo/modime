@@ -1,6 +1,9 @@
 {
   "name": "modime",
   "private": true,
+  "scripts": {
+    "prettier:ruby": "prettier --write '**/*'"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.12.13",
     "@rails/actioncable": "^6.0.0",
@@ -15,6 +18,8 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@prettier/plugin-ruby": "^1.5.2",
+    "prettier": "^2.2.1",
     "webpack-dev-server": "^3.11.2"
   }
 }
