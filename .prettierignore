@@ -3,6 +3,7 @@ node_modules
 bin
 Gemfile.lock
 log
+yarn.lock
 *.enc
 *.key
 *.png
@@ -18,6 +19,7 @@ log
 .gitignore
 .prettierignore
 .keep
+.ruby-version
 
 # Editor configs
 .idea
