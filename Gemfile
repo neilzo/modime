@@ -24,8 +24,6 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Devise for auth
 gem 'devise', '~> 4.7'
-# Use Prettier for code formatting
-gem 'prettier', '~> 1.5.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
