@@ -1,6 +1,8 @@
 tmp
 node_modules
 bin
+Gemfile.lock
+log
 
 # dot files
 .browserslistrc
@@ -12,3 +14,4 @@ bin
 # Editor configs
 .idea
 .editorconfig
+modime.iml
