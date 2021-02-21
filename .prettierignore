@@ -3,6 +3,14 @@ node_modules
 bin
 Gemfile.lock
 log
+*.enc
+*.key
+*.png
+*.jpg
+*.ico
+*.txt
+# TODO: can prettier format erb?
+*.erb
 
 # dot files
 .browserslistrc
