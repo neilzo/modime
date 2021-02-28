@@ -10,8 +10,13 @@ yarn.lock
 *.jpg
 *.ico
 *.txt
+# Ignore JS source maps
+*.map
 # TODO: can prettier format erb?
 *.erb
+
+# JS build files
+public/packs
 
 # dot files
 .browserslistrc
