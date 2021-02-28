@@ -9,7 +9,7 @@ type HelloTSProps = {
   name: string;
 };
 
-const HelloTS: React.FC<HelloTSProps> = (props) => <div>Hello {props.name}!</div>;
+const HelloTS: React.FC<HelloTSProps> = (props) => <div>Hello, I'm a {props.name} component!</div>;
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
