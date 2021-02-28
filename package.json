@@ -2,7 +2,8 @@
   "name": "modime",
   "private": true,
   "scripts": {
-    "prettier:ruby": "prettier --write '**/*'"
+    "prettier:ruby": "prettier --write '**/*'",
+    "compile": "tsc"
   },
   "dependencies": {
     "@babel/preset-react": "^7.12.13",
