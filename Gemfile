@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Devise for auth
 gem 'devise', '~> 4.7'
+# Admin
+gem 'rails_admin', '~> 2.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
