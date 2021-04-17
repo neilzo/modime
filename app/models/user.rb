@@ -6,4 +6,11 @@ class User < ApplicationRecord
          :recoverable,
          :rememberable,
          :validatable
+
+  ROLES = %i[user admin].freeze
+  enum role: ROLES
+
+  def admin?
+    role.to_sym == :admin
+  end
 end
